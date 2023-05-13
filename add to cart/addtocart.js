@@ -9,7 +9,7 @@ const product = [
         id: 1,
         image: 'image/hh-2.jpg',
         title: 'Digital Mulitimeter',
-        price: 100,
+        price: 50,
     },
     {
         id: 2,
@@ -21,7 +21,7 @@ const product = [
         id: 3,
         image: 'image/aa-1.jpg',
         title: 'Gear motor',
-        price: 100,
+        price: 250,
     }
 ];
 const categories = [...new Set(product.map((item)=>
